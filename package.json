@@ -1,0 +1,19 @@
+{
+  "name": "met-generate-int",
+  "version": "1.0.4",
+  "description": "return a random int between two int numbers",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm run test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/metadolism/met-random-int"
+  },
+  "keywords": [
+    "random",
+    "int"
+  ],
+  "author": "metadolin",
+  "license": "ISC"
+}
