@@ -1,9 +1,11 @@
+import { Buffer } from 'buffer';
+window.Buffer = window.Buffer || Buffer;
+console.log('buffer added - babel added');
 // Import the functions you need from the SDKs you need
 const { initializeApp } = require("firebase/app");
 const { getMessaging, getToken, onMessage } = require("firebase/messaging");
 // Import the MQTT library
 const mqtt = require('mqtt');
-
 // Create a client instance
 let client = null;
 
