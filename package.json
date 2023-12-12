@@ -1,6 +1,6 @@
 {
   "name": "met-generate-int",
-  "version": "1.0.4",
+  "version": "1.1.5",
   "description": "return a random int between two int numbers",
   "main": "index.js",
   "scripts": {
@@ -15,5 +15,14 @@
     "int"
   ],
   "author": "metadolin",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "buffer": "^6.0.3",
+    "firebase": "^10.7.1",
+    "mqtt": "^5.3.3",
+    "process": "^0.11.10",
+    "url": "^0.11.3",
+    "webpack": "^4.47.0",
+    "webpack-cli": "^3.3.12"
+  }
 }
